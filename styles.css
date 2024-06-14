@@ -1,0 +1,311 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+header h1 {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+header h1:hover {
+    color: #0056b3;  /* Change this color to whatever you like */
+}
+
+header .search-bar {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+nav.top-nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav.top-nav a:hover {
+    background-color: #0056b3;  /* Change this color to whatever you like */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0056b3;  /* Change this color to whatever you like */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.bordered-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.appointment {
+    text-align: center;
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.appointment button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appointment button:hover {
+    background-color: #0056b3;  /* Change this color to whatever you like */
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tags a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tags a:hover {
+    background-color: #0056b3;  /* Change this color to whatever you like */
+}
+
+.recent-doctors .doctor-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    transition: box-shadow 0.3s ease;
+}
+
+.recent-doctors .doctor-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.recent-doctors .doctor-card img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.recent-doctors .doctor-card h3 {
+    margin: 10px 0;
+    color: #007bff;
+}
+
+.recent-doctors .doctor-card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.recent-doctors .doctor-card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.recent-doctors .doctor-card button:hover {
+    background-color: #0056b3;  /* Change this color to whatever you like */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+footer .about, footer .registration {
+    margin-bottom: 20px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer nav a:hover {
+    color: #e0e0e0;  /* Change this color to whatever you like */
+}
+
+.doctor-details {
+    text-align: center;
+}
+
+.doctor-details img {
+    display: block;
+    margin: 0 auto;
+}
+
+.doctor-details button {
+    margin-top: 10px;
+}
+/* Custom CSS to remove bullets from the list */
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.no-bullets li {
+    margin-bottom: 5px;
+}
+
+ul.no-bullets li a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+ul.no-bullets li a:hover {
+    color: #0056b3;  /* Change this color to whatever you like */
+}
+/*css for blog*/
+.blog-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.blog-section h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    vertical-align: top;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.blog-post h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog-post h3 a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.blog-post h3 a:hover {
+    color: #0056b3;  /* Change this color to whatever you like */
+}
+
+.blog-post p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.blog-post a {
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.blog-post a:hover {
+    color: #0056b3;  /* Change this color to whatever you like */
+}
+
+.blog-post:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
